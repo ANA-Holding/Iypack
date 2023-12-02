@@ -2,18 +2,20 @@
 
 ## فهرست مطالب
 
-1. [نحوه تنظیم ریپازیتوری PyPack برای استفاده دائمی](#config)
+1. [نحوه تنظیم ریپازیتوری PyPack برای استفاده دائمی](#windows)
    - [برای Windows](#windows)
    - [برای Linux (Ubuntu)](#linux)
    - [برای macOS](#macos)
-2. [استفاده یکباره از ریپازیتوری PyPack](#پایپک-یکباره)
-3. [نحوه تنظیم ریپازیتوری اوبونتو در Lypack](#اوبونتو-Lypack)
-4. [نحوه تنظیم ریپازیتوری Maven در Mypack](#میون-Mypack)
+2. [استفاده یکباره از ریپازیتوری PyPack](#python)
+3. [نحوه تنظیم ریپازیتوری اوبونتو در Lypack](#Lypack)
+4. [نحوه تنظیم ریپازیتوری Maven در Mypack](#Mypack)
+5. [نحوه تنظیم ریپازیتوری npm در Nypack](#Nypack)
+
 </div>
 
 ---
 
-<div dir="rtl" id="config">
+<div dir="rtl" id="windows">
 
 ## نحوه تنظیم ریپازیتوری PyPack برای استفاده دائمی
 
@@ -35,7 +37,7 @@ mkdir %USERPROFILE%\pip && type nul > %USERPROFILE%\pip\pip.ini
    [global]
    index-url = http://download.iypack.ir/repository/pypack/simple
    ```
-<div dir="rtl">
+<div dir="rtl" id="linux">
 
 ### برای Linux (Ubuntu):
 
@@ -54,7 +56,7 @@ mkdir %USERPROFILE%\pip && type nul > %USERPROFILE%\pip\pip.ini
    [global]
    index-url = http://download.iypack.ir/repository/pypack/simple
    ```
-<div dir="rtl">
+<div dir="rtl" id="macos">
 
 ### برای macOS:
 
@@ -73,7 +75,7 @@ mkdir %USERPROFILE%\pip && type nul > %USERPROFILE%\pip\pip.ini
    [global]
    index-url = http://download.iypack.ir/repository/pypack/simple
    ```
-<div dir="rtl">
+<div dir="rtl" id="python">
 
 ## استفاده یکباره از ریپازیتوری PyPack
 
@@ -91,7 +93,7 @@ pip install [package-name] --index-url http://download.iypack.ir/repository/pypa
 
 ---
 
-<div dir="rtl">
+<div dir="rtl" id="Lypack">
 
 ## نحوه تنظیم ریپازیتوری اوبونتو در iypack
 
@@ -147,7 +149,7 @@ sudo apt install [package-name]
 
 ---
 
-<div dir="rtl">
+<div dir="rtl" id="Mypack">
 
 ## نحوه تنظیم ریپازیتوری Maven در IyPack
 
@@ -281,10 +283,59 @@ mvn package
 
 
 🌟 با استفاده از ریپازیتوری Maven در پروژه‌های اندروید، بهره‌وری و کارایی پروژه‌های خود را افزایش دهید!
+</div>
+
+<div dir="rtl" id="NyPack">
+   
+## نحوه تنظیم ریپازیتوری npm در IyPack
 
 
+</div>
+
+<div dir="rtl">
+   
+### 1. Node.js را می‌توانید از وب‌سایت رسمی آن در آدرس https://nodejs.org/en/ دانلود و نصب کنید.
+
+### 2. در خط فرمان، دستور
+</div>
+
+```shell
+npm config set registry http://download.iypack.ir/repository/npmjs
+```
+
+<div dir="rtl">
+
+ را اجرا کنید.
+ 
+### 3. یک فایل package.json را در پوشه ~/ با مقادیر زیر ایجاد کنید:
+</div>
 
 
+```json
+{
+"name": "sample_project1",
+"version": "0.0.1",
+"description": "Test Project 1",
+"dependencies" : {
+  "commonjs" : "0.0.1"
+}
+}
+```
+
+<div dir="rtl">
+
+
+### 4. از طریق دستور 
+</div>
+
+
+```shell
+npm install
+```
+
+<div dir="rtl">
+
+  فرآیند npm build را اجرا کنید.
 </div>
 
 ---
