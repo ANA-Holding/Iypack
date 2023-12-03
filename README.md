@@ -9,8 +9,8 @@
 2. [استفاده یکباره از ریپازیتوری PyPack](#python)
 3. [نحوه تنظیم ریپازیتوری اوبونتو در Lypack](#Lypack)
 4. [نحوه تنظیم ریپازیتوری Maven در Mypack](#Mypack)
-5. [نحوه تنظیم ریپازیتوری npm در Nypack](#Nypack)
-
+   - [برای Android Studio](#AS)
+6. [نحوه تنظیم ریپازیتوری npm در Nypack](#Nypack)
 </div>
 
 ---
@@ -244,6 +244,7 @@ mvn package
 
 <div dir="rtl">
 🌟 با انتخاب ریپازیتوری Maven در PyPack، به جامعه بزرگ توسعه‌دهندگان جاوا بپیوندید و از مزایای دسترسی سریع و امن به کتابخانه‌ها بهره‌مند شوید!
+<div dir="rtl" id="AS" >
 
 ### راه‌اندازی ریپازیتوری Maven در Android Studio:
 
