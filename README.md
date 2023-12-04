@@ -216,7 +216,7 @@ nano ~/.m2/settings.xml
 ```
 <div dir="rtl">
 
-### 3.فایل POM (pom.xml) را با مقادیر زیر در ~/ ایجاد کنید:
+### 3.فایل POM (pom.xml) را با مقادیر زیر در ~/ ایجاد کنید: (اگر فایل POM وجود داشت این مرحله رو انجام نده)
 </div>
 
 ```xml
@@ -277,6 +277,21 @@ mvn package
        }
    }
    ```
+
+for kotlin settings.gradle.kts:
+
+```kotlin
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral{
+            url = java.net.URI("http://download.iypack.ir/repository/maven/")
+            isAllowInsecureProtocol = true // add this line
+        }
+        gradlePluginPortal()
+    }
+}
+```
 <div dir="rtl">
 
 3. **همگام‌سازی پروژه:**
@@ -309,7 +324,7 @@ npm config set registry http://download.iypack.ir/repository/npmjs
 
  را اجرا کنید.
  
-### 3. یک فایل package.json را در پوشه ~/ با مقادیر زیر ایجاد کنید:
+### 3. یک فایل package.json را در پوشه ~/ با مقادیر زیر ایجاد کنید: (اگر این فایل وجود داشت این مرحله و مرحله 4 رو رد کن)
 </div>
 
 
