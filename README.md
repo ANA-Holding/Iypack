@@ -263,6 +263,7 @@ mvn package
        repositories {
            maven {
                url 'http://download.iypack.ir/repository/maven-public'
+               allowInsecureProtocol = true
            }
            // سایر ریپازیتوری‌ها
        }
@@ -272,6 +273,7 @@ mvn package
        repositories {
            maven {
                url 'http://download.iypack.ir/repository/maven-public'
+               allowInsecureProtocol = true
            }
            // سایر ریپازیتوری‌ها
        }
