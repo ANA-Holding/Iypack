@@ -1,0 +1,11 @@
+{
+  "name": "sample_project1",
+  "version": "0.0.1",
+  "description": "Test Project 1",
+  "dependencies": {
+    "commonjs": "0.0.1",
+    "gopd": "^1.0.1",
+    "is-callable": "^1.2.7",
+    "process": "^0.11.10"
+  }
+}
