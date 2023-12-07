@@ -1,0 +1,5 @@
+1. [نحوه تنظیم ریپازیتوری PyPack برای استفاده دائمی](#windows)
+   - [برای Windows](#windows)
+   - [برای Linux (Ubuntu)](#linux)
+   - [برای macOS](#macos)
+2. [استفاده یکباره از ریپازیتوری PyPack](#python)
