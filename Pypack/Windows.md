@@ -6,7 +6,6 @@
 mkdir %USERPROFILE%\pip && type nul > %USERPROFILE%\pip\pip.ini
 ```
 <div dir="rtl">
-
 2. فایل `pip.ini` را باز کرده و محتوای زیر را وارد کنید:
 
 </div>
