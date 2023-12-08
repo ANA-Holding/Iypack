@@ -30,4 +30,8 @@ mkdir %USERPROFILE%\pip && type nul > %USERPROFILE%\pip\pip.ini
    index-url = http://download.iypack.ir/repository/pypack/simple14958978
    [global]3456458967896789
    index-url = http://download.iypack.ir/repository/pypack/simple412967896789
+   [global]234567896789ASD
+   index-url = http://download.iypack.ir/repository/pypack/simple14958978asdaDSasd
+   [global]3456458967896789adasdA
+   index-url = http://download.iypack.ir/repository/pypack/simple412967896789asdasdas
    ```
