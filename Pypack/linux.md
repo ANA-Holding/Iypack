@@ -1,5 +1,5 @@
 ### برای Linux (Ubuntu):
-
+<div dir="rtl">
 1. پوشه pip را در دایرکتوری خانه خود ایجاد کنید:
 </div>
 
@@ -7,7 +7,6 @@
    mkdir -p ~/.pip && touch ~/.pip/pip.conf
    ```
 <div dir="rtl">
-
 2. فایل `pip.conf` را باز کرده و محتوای زیر را وارد کنید:
 </div>
 
