@@ -32,7 +32,7 @@ nano ~/.m2/settings.xml
   <mirror>
     <id>nexus</id>
     <mirrorOf>*</mirrorOf>
-    <url>http://download.iypack.ir/repository/maven/</url>
+    <url>http://download.iypack.ir/repository/MyPack/</url>
   </mirror>
 </mirrors>
 
@@ -94,6 +94,4 @@ mvn package
 
 
 
-
-<div dir="rtl" id="AS" >
 
