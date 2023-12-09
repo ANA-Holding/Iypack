@@ -11,7 +11,7 @@
 </div>
 
 ```shell
-npm config set registry http://download.iypack.ir/repository/npmjs
+npm config set registry http://download.iypack.ir/repository/npmJson/
 ```
 
 <div dir="rtl">
