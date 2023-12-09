@@ -13,7 +13,7 @@
    buildscript {
        repositories {
            maven {
-               url 'http://download.iypack.ir/repository/maven-public'
+               url 'http://download.iypack.ir/repository/MyPack/'
                allowInsecureProtocol = true
            }
            // سایر ریپازیتوری‌ها
@@ -23,7 +23,7 @@
    allprojects {
        repositories {
            maven {
-               url 'http://download.iypack.ir/repository/maven-public'
+               url 'http://download.iypack.ir/repository/MyPack/'
                allowInsecureProtocol = true
            }
            // سایر ریپازیتوری‌ها
@@ -38,7 +38,7 @@ pluginManagement {
     repositories {
         google()
         mavenCentral{
-            url = java.net.URI("http://download.iypack.ir/repository/maven/")
+            url = java.net.URI("http://download.iypack.ir/repository/MyPack/")
             isAllowInsecureProtocol = true // add this line
         }
         gradlePluginPortal()
