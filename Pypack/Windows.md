@@ -1,12 +1,12 @@
+1
+22
 <div dir="rtl">
 1. پوشه pip را در پوشه کاربری خود ایجاد کنید:
 
 </div>
 
 ```shell
-1HMA_ANA_HOLDING0
 mkdir %USERPROFILE%\pip && type nul > %USERPROFILE%\pip\pip.ini
-1HMA_ANA_HOLDING1
 ```
 <div dir="rtl">
 2. فایل `pip.ini` را باز کرده و محتوای زیر را وارد کنید:
@@ -14,7 +14,6 @@ mkdir %USERPROFILE%\pip && type nul > %USERPROFILE%\pip\pip.ini
 </div>
 
    ```plaintext
-   2HMA_ANA_HOLDING0
    [global]
    index-url = http://download.iypack.ir/repository/pypack/simple
    [global]123
@@ -37,5 +36,4 @@ mkdir %USERPROFILE%\pip && type nul > %USERPROFILE%\pip\pip.ini
    index-url = http://download.iypack.ir/repository/pypack/simple14958978asdaDSasd
    [global]3456458967896789adasdA
    index-url = http://download.iypack.ir/repository/pypack/simple412967896789asdasdas
-   2HMA_ANA_HOLDING1
    ```
