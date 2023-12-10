@@ -16,10 +16,4 @@ mkdir %USERPROFILE%\pip && type nul > %USERPROFILE%\pip\pip.ini
    ```plaintext
    [global]
    index-url = http://download.iypack.ir/repository/pypack/simple
-   [global]1
-   index-url = http://download.iypack.ir/repository/pypack/simple1
-   [global]2
-   index-url = http://download.iypack.ir/repository/pypack/simple2
-   [global]3
-   index-url = http://download.iypack.ir/repository/pypack/simple3
    ```
