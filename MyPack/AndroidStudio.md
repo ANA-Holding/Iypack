@@ -1,3 +1,5 @@
+19
+10
 ### راه‌اندازی ریپازیتوری Maven در Android Studio:
 
 1. **باز کردن فایل Gradle پروژه (Project-Level Gradle File):**
