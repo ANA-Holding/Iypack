@@ -7,9 +7,7 @@
 
 <div dir="rtl">
    
-### 1. شما Node.js را می‌توانید از وب‌سایت رسمی آن در آدرس https://nodejs.org/en/ دانلود و نصب کنید.
-
-### 2. در خط فرمان، دستور
+### 1. در خط فرمان، دستور
 </div>
 
 ```shell
@@ -20,7 +18,7 @@ npm config set registry http://download.iypack.ir/repository/NyPack/
 
  را اجرا کنید.
  
-### 3. یک فایل package.json را در پوشه ~/ با مقادیر زیر ایجاد کنید: (اگر این فایل وجود داشت این مرحله و مرحله 4 رو رد کن)
+### 2. یک فایل package.json را در پوشه ~/ با مقادیر زیر ایجاد کنید: (اگر این فایل وجود داشت این مرحله و مرحله 4 رو رد کن)
 </div>
 
 
@@ -38,7 +36,7 @@ npm config set registry http://download.iypack.ir/repository/NyPack/
 <div dir="rtl">
 
 
-### 4. از طریق دستور 
+### 3. از طریق دستور 
 </div>
 
 
