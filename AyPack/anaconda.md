@@ -1,6 +1,6 @@
-10
-10
-10
+1
+3
+2
 ## نحوه تنظیم ریپازیتوری Anaconda در AncyPack
 
 ### راه‌اندازی ریپازیتوری Anaconda:
@@ -36,7 +36,7 @@
    پس از تنظیم `condarc`، می‌توانید به‌روزرسانی‌های موجود را چک کنید و بسته‌های جدید را نصب کنید:
 </div>
 
-   ```shell
+   ```shell2
    conda update --all
    conda install [package-name]
    ```
