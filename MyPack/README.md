@@ -1,3 +1,6 @@
+1
+40
+13
 ## نحوه تنظیم ریپازیتوری Maven در IyPack
 
 برای استفاده از ریپازیتوری Maven در پروژه‌های جاوا خود، دستورالعمل‌های زیر را دنبال کنید:
@@ -17,7 +20,7 @@ nano ~/.m2/settings.xml
 داخل فایل را با اطلاعات ریپازیتوری iypack به شکل زیر پر کنید:
 </div>
 
-```xml
+```xml1
 <?xml version="1.0" encoding="UTF-8"?>
 
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
@@ -58,14 +61,13 @@ nano ~/.m2/settings.xml
   </profile>
 </profiles>
 </settings>
-
 ```
 <div dir="rtl">
 
 ### 3.فایل POM (pom.xml) را با مقادیر زیر در ~/ ایجاد کنید: (اگر فایل POM وجود داشت این مرحله رو انجام نده)
 </div>
 
-```xml
+```xml2
 <project>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
