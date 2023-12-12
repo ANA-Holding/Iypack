@@ -1,7 +1,5 @@
 1
 2
-1
-1
 <div dir="rtl" id="Lypack">
 
 ## نحوه تنظیم ریپازیتوری اوبونتو در iypack
@@ -13,7 +11,7 @@
 ابتدا، فایل `sources.list` را باز کنید:
 </div>
 
-```shell1
+```shell
 sudo nano /etc/apt/sources.list
 ```
 <div dir="rtl">
@@ -36,7 +34,7 @@ deb-src http://download.iypack.ir/repository/Ubuntu/ubuntu [distribution] main r
 پس از اضافه کردن ریپازیتوری جدید، لیست بسته‌های خود را به‌روز کنید:
 </div>
 
-```shell2
+```shell
 sudo apt update
 ```
 <div dir="rtl">
@@ -46,7 +44,7 @@ sudo apt update
 پس از به‌روزرسانی، شما می‌توانید بسته‌های مورد نیاز خود را از ریپازیتوری جدید نصب کنید:
 </div>
 
-```shell3
+```shell
 sudo apt install [package-name]
 ```
 <div dir="rtl">
